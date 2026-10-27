@@ -1,0 +1,5567 @@
+{
+ "v": 1,
+ "paroquia": "Paróquia São Paulo Apóstolo",
+ "locais": {
+  "CM": {
+   "nome": "Casa de Maria",
+   "grupo": "CM",
+   "endereco": ""
+  },
+  "SP": {
+   "nome": "Igreja São Paulo Apóstolo",
+   "grupo": "CM",
+   "endereco": ""
+  },
+  "SE": {
+   "nome": "Capela Santo Expedito",
+   "grupo": "SE",
+   "endereco": ""
+  },
+  "NSF": {
+   "nome": "Capela N. Sra. de Fátima",
+   "grupo": "NSF",
+   "endereco": ""
+  }
+ },
+ "horarios": [
+  {
+   "id": "CM_SAB_1800",
+   "nome": "Sábado 18h · Casa de Maria",
+   "grupo": "CM"
+  },
+  {
+   "id": "CM_DOM_0730",
+   "nome": "Domingo 7h30 · Casa de Maria",
+   "grupo": "CM"
+  },
+  {
+   "id": "CM_DOM_0930",
+   "nome": "Domingo 9h30 · Casa de Maria",
+   "grupo": "CM"
+  },
+  {
+   "id": "CM_DOM_1800",
+   "nome": "Domingo 18h · Casa de Maria",
+   "grupo": "CM"
+  },
+  {
+   "id": "INCLUSIVA",
+   "nome": "Missa Inclusiva (2º sábado, 16h) · Casa de Maria",
+   "grupo": "CM"
+  },
+  {
+   "id": "BATISMO",
+   "nome": "Missa de Batismo (2º domingo, 8h) · Igreja Matriz",
+   "grupo": "CM"
+  },
+  {
+   "id": "SC_CM",
+   "nome": "Sagrado Coração (1ª sexta, 9h e 15h) · Casa de Maria",
+   "grupo": "CM"
+  },
+  {
+   "id": "SE_TER_1930",
+   "nome": "Terça 19h30 · Santo Expedito",
+   "grupo": "SE"
+  },
+  {
+   "id": "SE_DOM_1930",
+   "nome": "Domingo 19h30 · Santo Expedito",
+   "grupo": "SE"
+  },
+  {
+   "id": "SC_SE_1930",
+   "nome": "Sagrado Coração (1ª sexta, 19h30) · Santo Expedito",
+   "grupo": "SE"
+  },
+  {
+   "id": "NSF_QUA_1830",
+   "nome": "Quarta 18h30 · N. Sra. de Fátima",
+   "grupo": "NSF"
+  },
+  {
+   "id": "NSF_SAB_1930",
+   "nome": "Sábado 19h30 · N. Sra. de Fátima",
+   "grupo": "NSF"
+  },
+  {
+   "id": "SC_NSF_1800",
+   "nome": "Sagrado Coração (1ª sexta, 18h) · N. Sra. de Fátima",
+   "grupo": "NSF"
+  }
+ ],
+ "modelos": [
+  {
+   "id": "CM_SAB_1800",
+   "nome": "Missa",
+   "local": "CM",
+   "regra": "semanal",
+   "dia": 6,
+   "hora": "18:00",
+   "min": 22,
+   "max": 26,
+   "lider": 1,
+   "cred": 6,
+   "pool": [
+    "CM_SAB_1800"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "CM_DOM_0730",
+   "nome": "Missa",
+   "local": "CM",
+   "regra": "semanal",
+   "dia": 0,
+   "hora": "07:30",
+   "min": 26,
+   "max": 34,
+   "lider": 1,
+   "cred": 6,
+   "pool": [
+    "CM_DOM_0730"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "CM_DOM_0930",
+   "nome": "Missa",
+   "local": "CM",
+   "regra": "semanal",
+   "dia": 0,
+   "hora": "09:30",
+   "min": 26,
+   "max": 34,
+   "lider": 1,
+   "cred": 6,
+   "pool": [
+    "CM_DOM_0930"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "CM_DOM_1800",
+   "nome": "Missa",
+   "local": "CM",
+   "regra": "semanal",
+   "dia": 0,
+   "hora": "18:00",
+   "min": 26,
+   "max": 30,
+   "lider": 1,
+   "cred": 6,
+   "pool": [
+    "CM_DOM_1800"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "SE_TER_1930",
+   "nome": "Missa",
+   "local": "SE",
+   "regra": "semanal",
+   "dia": 2,
+   "hora": "19:30",
+   "min": 4,
+   "max": 4,
+   "lider": 0,
+   "cred": 0,
+   "pool": [
+    "SE_TER_1930"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "SE_DOM_1930",
+   "nome": "Missa",
+   "local": "SE",
+   "regra": "semanal",
+   "dia": 0,
+   "hora": "19:30",
+   "min": 4,
+   "max": 4,
+   "lider": 0,
+   "cred": 0,
+   "pool": [
+    "SE_DOM_1930"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "NSF_QUA_1830",
+   "nome": "Missa",
+   "local": "NSF",
+   "regra": "semanal",
+   "dia": 3,
+   "hora": "18:30",
+   "min": 4,
+   "max": 4,
+   "lider": 0,
+   "cred": 0,
+   "pool": [
+    "NSF_QUA_1830"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "NSF_SAB_1930",
+   "nome": "Missa",
+   "local": "NSF",
+   "regra": "semanal",
+   "dia": 6,
+   "hora": "19:30",
+   "min": 4,
+   "max": 4,
+   "lider": 0,
+   "cred": 0,
+   "pool": [
+    "NSF_SAB_1930"
+   ],
+   "ativa": 1
+  },
+  {
+   "id": "INCLUSIVA",
+   "nome": "Missa Inclusiva",
+   "local": "CM",
+   "regra": "nth",
+   "dia": 6,
+   "hora": "16:00",
+   "min": 12,
+   "max": 16,
+   "lider": 1,
+   "cred": 0,
+   "pool": [
+    "INCLUSIVA"
+   ],
+   "ativa": 1,
+   "n": 2
+  },
+  {
+   "id": "BATISMO",
+   "nome": "Missa de Batismo",
+   "local": "SP",
+   "regra": "nth",
+   "dia": 0,
+   "hora": "08:00",
+   "min": 6,
+   "max": 6,
+   "lider": 1,
+   "cred": 0,
+   "pool": [
+    "BATISMO",
+    "CM_DOM_0730",
+    "CM_DOM_0930"
+   ],
+   "ativa": 1,
+   "n": 2
+  },
+  {
+   "id": "SC_CM_0900",
+   "nome": "Sagrado Coração de Jesus",
+   "local": "CM",
+   "regra": "nth",
+   "dia": 5,
+   "hora": "09:00",
+   "min": 9,
+   "max": 10,
+   "lider": 1,
+   "cred": 0,
+   "pool": [
+    "SC_CM"
+   ],
+   "ativa": 1,
+   "n": 1
+  },
+  {
+   "id": "SC_CM_1500",
+   "nome": "Sagrado Coração de Jesus",
+   "local": "CM",
+   "regra": "nth",
+   "dia": 5,
+   "hora": "15:00",
+   "min": 9,
+   "max": 10,
+   "lider": 1,
+   "cred": 0,
+   "pool": [
+    "SC_CM"
+   ],
+   "ativa": 1,
+   "n": 1
+  },
+  {
+   "id": "SC_NSF_1800",
+   "nome": "Sagrado Coração de Jesus",
+   "local": "NSF",
+   "regra": "nth",
+   "dia": 5,
+   "hora": "18:00",
+   "min": 4,
+   "max": 4,
+   "lider": 0,
+   "cred": 0,
+   "pool": [
+    "SC_NSF_1800",
+    "NSF_QUA_1830",
+    "NSF_SAB_1930"
+   ],
+   "ativa": 1,
+   "n": 1
+  },
+  {
+   "id": "SC_SE_1930",
+   "nome": "Sagrado Coração de Jesus",
+   "local": "SE",
+   "regra": "nth",
+   "dia": 5,
+   "hora": "19:30",
+   "min": 4,
+   "max": 4,
+   "lider": 0,
+   "cred": 0,
+   "pool": [
+    "SC_SE_1930",
+    "SE_TER_1930",
+    "SE_DOM_1930"
+   ],
+   "ativa": 1,
+   "n": 1
+  }
+ ],
+ "config": {
+  "maxPorMes": 4,
+  "alvoPorMes": 2,
+  "coordNome": "",
+  "coordTel": "",
+  "link": ""
+ },
+ "pessoas": [
+  {
+   "id": 1,
+   "n": "Adão do Vale",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 101,
+   "v": [
+    "Adão Do Vale"
+   ]
+  },
+  {
+   "id": 2,
+   "n": "Adelaide F. A. da Rocha",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2
+   },
+   "p": 7,
+   "v": [
+    "Adelaide F A da Rocha"
+   ]
+  },
+  {
+   "id": 3,
+   "n": "Adriana Ap. da Silva Brito",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 229,
+   "v": [
+    "Adriana Ap da Silva Brito"
+   ]
+  },
+  {
+   "id": 4,
+   "n": "Adriana Santos",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 5,
+   "n": "Aide F. da Silva Zamaro Coelho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SC_CM": 1
+   },
+   "p": 46,
+   "v": [
+    "Aide F da Silva zamaro Coelho"
+   ]
+  },
+  {
+   "id": 6,
+   "n": "Alaíde Brito",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 1
+   },
+   "p": 174,
+   "v": [
+    "Alaide Brito"
+   ]
+  },
+  {
+   "id": 7,
+   "n": "Alcides José de Souza",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2
+   },
+   "p": 2,
+   "v": [
+    "Alcides Jose de Souza"
+   ]
+  },
+  {
+   "id": 8,
+   "n": "Alice Pereira de Lima",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 240
+  },
+  {
+   "id": 9,
+   "n": "Aline F. Rodrigues Ducca",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 212,
+   "v": [
+    "Aline F Rodrigues Ducca",
+    "Aline Fernanda R Ducca"
+   ]
+  },
+  {
+   "id": 10,
+   "n": "Almerinda Silveira Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 1
+   },
+   "p": 33
+  },
+  {
+   "id": 11,
+   "n": "Ana Ap. de Sousa da Silva",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "INCLUSIVA": 2
+   },
+   "v": [
+    "Ana Ap de Sousa da Silva"
+   ]
+  },
+  {
+   "id": 12,
+   "n": "Ana Maria de Souza Santos",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 54
+  },
+  {
+   "id": 13,
+   "n": "Ana Regina A. B. Marinho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 107,
+   "v": [
+    "Ana Regina A. Marinho"
+   ]
+  },
+  {
+   "id": 14,
+   "n": "André Luiz Cardoso Mendes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 180,
+   "v": [
+    "Andre Luiz Cardoso Mendes"
+   ]
+  },
+  {
+   "id": 15,
+   "n": "Andréa Ap. Alcântara Beraldi",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_DOM_1930": 5
+   },
+   "p": 162,
+   "v": [
+    "Andrea Ap Alcantara Beraldi"
+   ]
+  },
+  {
+   "id": 16,
+   "n": "Andréa Ap. de Oliveira Pigato",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 161,
+   "v": [
+    "Andreá Ap. De Oliveira Pigato"
+   ]
+  },
+  {
+   "id": 17,
+   "n": "Andréa G. Mello Sichelli",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 2
+   },
+   "p": 110,
+   "v": [
+    "Andréa G Mello Sichelli",
+    "Andréa G de M Sichelli"
+   ]
+  },
+  {
+   "id": 18,
+   "n": "Andréa Sánchez Silva",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {},
+   "v": [
+    "Andrea Sánchez Silva"
+   ]
+  },
+  {
+   "id": 19,
+   "n": "Andréia Pavani Lima",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SE_TER_1930": 2
+   },
+   "p": 77
+  },
+  {
+   "id": 20,
+   "n": "Ângela E. Tofaneli Camargo",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {},
+   "v": [
+    "Angela E Tofaneli Camargo"
+   ]
+  },
+  {
+   "id": 21,
+   "n": "Angelita Fernandes dos Anjos",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 232,
+   "v": [
+    "Angelita F dos Anjos"
+   ]
+  },
+  {
+   "id": 22,
+   "n": "Ângelo José Alves",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 103,
+   "v": [
+    "Angelo José Alves"
+   ]
+  },
+  {
+   "id": 23,
+   "n": "Antonia Vichessi de Almeida",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 143
+  },
+  {
+   "id": 24,
+   "n": "Antônio C. Ribeiro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 102,
+   "v": [
+    "Antonio C Ribeiro"
+   ]
+  },
+  {
+   "id": 25,
+   "n": "Antônio Depase Martimiano",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {},
+   "v": [
+    "Antonio Depase Martimiano",
+    "Antônio Dapase Martimiano"
+   ]
+  },
+  {
+   "id": 26,
+   "n": "Antônio T. de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "p": 43,
+   "v": [
+    "Antonio T de Oliveira",
+    "Antônio T de Oliveira"
+   ]
+  },
+  {
+   "id": 27,
+   "n": "Aparecido Cunha",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 192
+  },
+  {
+   "id": 28,
+   "n": "Aparecido Ferreira da Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 236,
+   "v": [
+    "Aparecido F da Silva"
+   ]
+  },
+  {
+   "id": 29,
+   "n": "Aparecido Santos",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 30,
+   "n": "Augusta Pereira da Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 3,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "p": 235,
+   "v": [
+    "Augusta P da Silva"
+   ]
+  },
+  {
+   "id": 31,
+   "n": "Áurea Silvério Ferreira dos Santos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "CM_DOM_1800": 4,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 1,
+    "SC_NSF_1800": 1
+   },
+   "p": 135,
+   "v": [
+    "Aurea S Ferreira dos Santos",
+    "Aurea Silverio F Santos",
+    "Aurea Silverio F dos Santos",
+    "Aurea silverio ferreira dos santos"
+   ]
+  },
+  {
+   "id": 32,
+   "n": "Beatriz Bento Soares Bizerra",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "INCLUSIVA": 2
+   },
+   "p": 76
+  },
+  {
+   "id": 33,
+   "n": "Benigno B. de Souza Filho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 1
+   },
+   "p": 10,
+   "v": [
+    "Benigno B de Souza Filho"
+   ]
+  },
+  {
+   "id": 34,
+   "n": "Breno Augusto Xavier Pereira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 132,
+   "v": [
+    "Breno A Xavier Pereira",
+    "Breno Augusto X Pereira"
+   ]
+  },
+  {
+   "id": 35,
+   "n": "Carla C. Gobbo da Silva",
+   "c": 1,
+   "locs": [
+    "NSF"
+   ],
+   "pref": {
+    "NSF_SAB_1930": 5
+   },
+   "v": [
+    "Carla C Gobbo Da Silva"
+   ]
+  },
+  {
+   "id": 36,
+   "n": "Carlos Alberto R. de Castro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 220,
+   "v": [
+    "Carlos Alberto R de Castro"
+   ]
+  },
+  {
+   "id": 37,
+   "n": "Carlos Augusto Moisés",
+   "locs": [
+    "NSF"
+   ],
+   "pref": {
+    "NSF_QUA_1830": 3,
+    "SC_NSF_1800": 1
+   },
+   "v": [
+    "Carlos Augusto Moises"
+   ]
+  },
+  {
+   "id": 38,
+   "n": "Cecília M. L. de Mello",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 242,
+   "v": [
+    "Cecilia M L de Mello"
+   ]
+  },
+  {
+   "id": 39,
+   "n": "Cecília P. da Silva Nogueira",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_SAB_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 150,
+   "v": [
+    "Cecilia P da S Nogueira",
+    "Cecilia P da Silva Nogueira"
+   ]
+  },
+  {
+   "id": 40,
+   "n": "Célia Ap. da Silva Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 170,
+   "v": [
+    "Célia Ap da Silva Souza"
+   ]
+  },
+  {
+   "id": 41,
+   "n": "Célia G. Martins",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 3,
+    "SC_SE_1930": 1
+   },
+   "p": 198,
+   "v": [
+    "Celia G Martins",
+    "Célia G Martins"
+   ]
+  },
+  {
+   "id": 42,
+   "n": "Celso Luís Taver",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 186,
+   "v": [
+    "Celso Luis Taver"
+   ]
+  },
+  {
+   "id": 43,
+   "n": "Cirlene dos S. de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "p": 26,
+   "v": [
+    "Cirlene Dos S de Oliveira",
+    "Cirlene S de Oliveira"
+   ]
+  },
+  {
+   "id": 44,
+   "n": "Cleonice Neves Canalles",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 2,
+    "BATISMO": 1
+   },
+   "p": 152
+  },
+  {
+   "id": 45,
+   "n": "Cleonice Pantaroto Pestana",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 122
+  },
+  {
+   "id": 46,
+   "n": "Cleuza Pacífico",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 5,
+   "v": [
+    "Cleuza Pacifico"
+   ]
+  },
+  {
+   "id": 47,
+   "n": "Conceição de A. França Belila",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 138,
+   "v": [
+    "Conceição A França Belila",
+    "Conceição de A França Belila"
+   ]
+  },
+  {
+   "id": 48,
+   "n": "Creusa Ap. Sgariboldi Vichesse",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 3
+   },
+   "p": 246,
+   "v": [
+    "Creusa Ap S Vichesse",
+    "Creusa Ap Sgariboldi Vichesse",
+    "Creusa Aparecida S Vichesse"
+   ]
+  },
+  {
+   "id": 49,
+   "n": "Cristiane L. Guimarães",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {},
+   "v": [
+    "Cristiane L Guimaraes"
+   ]
+  },
+  {
+   "id": 50,
+   "n": "Daniele Silva S. Zangerolamo",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3
+   },
+   "v": [
+    "Daniele Silva S Zangerolamo"
+   ]
+  },
+  {
+   "id": 51,
+   "n": "Danielli Ap. Martins Bezerra",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 58,
+   "v": [
+    "Danielli Ap Martins Bezerra"
+   ]
+  },
+  {
+   "id": 52,
+   "n": "Débora Regina Zampieri Peixoto",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_DOM_1930": 3,
+    "INCLUSIVA": 2,
+    "SE_TER_1930": 1
+   },
+   "p": 53,
+   "v": [
+    "Débora R Zampieri Peixoto",
+    "Débora Regina Z Peixoto"
+   ]
+  },
+  {
+   "id": 53,
+   "n": "Denivaldo Peixoto da Silva",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_DOM_1930": 3,
+    "SE_TER_1930": 1
+   },
+   "p": 52
+  },
+  {
+   "id": 54,
+   "n": "Devanei José dos Santos",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 12
+  },
+  {
+   "id": 55,
+   "n": "Dhiego de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 191
+  },
+  {
+   "id": 56,
+   "n": "Ector Ribeiro Pimentel",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 129
+  },
+  {
+   "id": 57,
+   "n": "Edilson B. Bezerra",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 4,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 108
+  },
+  {
+   "id": 58,
+   "n": "Edivaldo Batista Bezerra",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 51,
+   "v": [
+    "Edivaldo B Bezerra"
+   ]
+  },
+  {
+   "id": 59,
+   "n": "Edna Pereira Gastão Macedo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 2
+   },
+   "p": 199
+  },
+  {
+   "id": 60,
+   "n": "Edna S. R. Lopes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "SC_CM": 1
+   },
+   "p": 62
+  },
+  {
+   "id": 61,
+   "n": "Edna Terezinha Fontanin",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 167
+  },
+  {
+   "id": 62,
+   "n": "Ednei Ap. Lopes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 60
+  },
+  {
+   "id": 63,
+   "n": "Eduardo de Oliveira Silva",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 64,
+   "n": "Elaine C. da Silva Ribeiro",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 195,
+   "v": [
+    "Elaine C da Silva Ribeiro"
+   ]
+  },
+  {
+   "id": 65,
+   "n": "Elaine Cristina Rezende Freires",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_DOM_1930": 2,
+    "SE_TER_1930": 1
+   },
+   "p": 176,
+   "v": [
+    "Elaine Cristina Resende Freires"
+   ]
+  },
+  {
+   "id": 66,
+   "n": "Eliana Ap. Morgado Alves",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 82,
+   "v": [
+    "Eliana Ap Morgado Alves"
+   ]
+  },
+  {
+   "id": 67,
+   "n": "Eliana Ap. Santos de Campos",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 189,
+   "v": [
+    "Eliana Ap Santos de Campos"
+   ]
+  },
+  {
+   "id": 68,
+   "n": "Eliane Ap. de Souza Mota",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 127,
+   "v": [
+    "Eliane Ap Souza Mota",
+    "Eliane Ap de Souza Mota"
+   ]
+  },
+  {
+   "id": 69,
+   "n": "Eliane Cristina Bugge",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 130
+  },
+  {
+   "id": 70,
+   "n": "Eliezer R. de Matos Júnior",
+   "l": 1,
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3
+   },
+   "p": 187,
+   "v": [
+    "Eliezer R de Matos Junior"
+   ]
+  },
+  {
+   "id": 71,
+   "n": "Elisabete Moraes B. Duarte",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "v": [
+    "Elisabete Moraes B Duarte"
+   ]
+  },
+  {
+   "id": 72,
+   "n": "Eliseu Martins Dorado",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2
+   },
+   "p": 155
+  },
+  {
+   "id": 73,
+   "n": "Elizabete de L. Martins Izidro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 113,
+   "v": [
+    "Elizabete de L M Izidro",
+    "Elizabete de L Martins Izidro"
+   ]
+  },
+  {
+   "id": 74,
+   "n": "Elizângela",
+   "a": "Nega",
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SC_SE_1930": 1,
+    "SE_DOM_1930": 1
+   },
+   "v": [
+    "Elizangela"
+   ]
+  },
+  {
+   "id": 75,
+   "n": "Eraldo Gomes Ramos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 3
+   },
+   "p": 171
+  },
+  {
+   "id": 76,
+   "n": "Erick Souza Bizerra",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "SE_DOM_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 32
+  },
+  {
+   "id": 77,
+   "n": "Evandro Carlos de Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 19
+  },
+  {
+   "id": 78,
+   "n": "Evandro César Benassute",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "SE_DOM_1930": 2
+   },
+   "p": 147,
+   "v": [
+    "Evandro Cesar Benassute"
+   ]
+  },
+  {
+   "id": 79,
+   "n": "Fabiana C. Schatz M. de Moura",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 96,
+   "v": [
+    "Fabiana C Schatz M Moura",
+    "Fabiana C Schatz M de Moura"
+   ]
+  },
+  {
+   "id": 80,
+   "n": "Fabiane Regina W. da Cruz",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 2
+   },
+   "v": [
+    "Fabiane Regina W da Cruz"
+   ]
+  },
+  {
+   "id": 81,
+   "n": "Fabiano Cardeliquio",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 238
+  },
+  {
+   "id": 82,
+   "n": "Fábio Antônio Alves",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 66,
+   "v": [
+    "Fabio Antônio Alves"
+   ]
+  },
+  {
+   "id": 83,
+   "n": "Fernanda Ap. Vilela Favaro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 2,
+    "BATISMO": 1
+   },
+   "p": 109,
+   "v": [
+    "Fernanda Ap V Favaro",
+    "Fernanda Ap Vilela Favaro"
+   ]
+  },
+  {
+   "id": 84,
+   "n": "Franciele P. Caetano André",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 2
+   },
+   "p": 104,
+   "v": [
+    "Franciele P Caetano André",
+    "Franciele Pereira C André"
+   ]
+  },
+  {
+   "id": 85,
+   "n": "Francisco Barros da Silva",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 1
+   },
+   "p": 252,
+   "v": [
+    "Francisco B da silva",
+    "Francisco Barros da silva"
+   ]
+  },
+  {
+   "id": 86,
+   "n": "Geni Pereira de O. Floriano",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 125,
+   "v": [
+    "Geni pereira de O floriano"
+   ]
+  },
+  {
+   "id": 87,
+   "n": "Geralda M. S. Turci",
+   "a": "Ana",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 2
+   },
+   "p": 149,
+   "v": [
+    "Geralda M S Turci"
+   ]
+  },
+  {
+   "id": 88,
+   "n": "Gildo de Souza Mello",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 166
+  },
+  {
+   "id": 89,
+   "n": "Gilson de Souza Conceição",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 221,
+   "v": [
+    "Gilson Souza Conceição"
+   ]
+  },
+  {
+   "id": 90,
+   "n": "Gizeli S. Zafra de Andrade",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 3
+   },
+   "p": 119,
+   "v": [
+    "Gizeli S Zafra de Andrade",
+    "Gizeli dos S Z Andrade",
+    "Gizeli dos S Z de Andrade"
+   ]
+  },
+  {
+   "id": 91,
+   "n": "Guilherme A. Gobbo Silva",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3
+   },
+   "p": 164
+  },
+  {
+   "id": 92,
+   "n": "Idaura Morais Ferreira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "SC_CM": 1
+   }
+  },
+  {
+   "id": 93,
+   "n": "Idelfonso Trevisan Neto",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 225
+  },
+  {
+   "id": 94,
+   "n": "Ilda Maria de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "v": [
+    "ILda Maria de Oliveira"
+   ]
+  },
+  {
+   "id": 95,
+   "n": "Ilda Nogueira Soares Marques",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 120,
+   "v": [
+    "Ilda Nogueira Soares marques",
+    "Ilda Nogueira marques"
+   ]
+  },
+  {
+   "id": 96,
+   "n": "Inês Rosa Gualiume",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 79,
+   "v": [
+    "Inês Rosa gualiume"
+   ]
+  },
+  {
+   "id": 97,
+   "n": "Inês Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 124,
+   "v": [
+    "Ines Silva"
+   ]
+  },
+  {
+   "id": 98,
+   "n": "Irene Poças Belila",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_SAB_1930": 4,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "p": 137
+  },
+  {
+   "id": 99,
+   "n": "Irene Soares Mendes Monaro",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "SE_DOM_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 205,
+   "v": [
+    "Irene S Mendes Monaro"
+   ]
+  },
+  {
+   "id": 100,
+   "n": "Isabela Kraft F. Moisés",
+   "locs": [
+    "NSF",
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 3,
+    "NSF_SAB_1930": 2
+   },
+   "p": 126,
+   "v": [
+    "Isabela kraft F Moisés",
+    "Izabela Kraft F Moises"
+   ]
+  },
+  {
+   "id": 101,
+   "n": "Ivete de Fátima da S. Vale",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 1,
+   "v": [
+    "Ivete de Fátima da S Vale"
+   ]
+  },
+  {
+   "id": 102,
+   "n": "Izabel Cristina Ribeiro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 24
+  },
+  {
+   "id": 103,
+   "n": "Jair de Souza Brito",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 22
+  },
+  {
+   "id": 104,
+   "n": "Jairo Tavares André",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 2
+   },
+   "p": 84
+  },
+  {
+   "id": 105,
+   "n": "Janes Soares de Sousa Lopes",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   }
+  },
+  {
+   "id": 106,
+   "n": "Jaqueline Joana B. Moraes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 121,
+   "v": [
+    "Jaqueline Joana B Moraes"
+   ]
+  },
+  {
+   "id": 107,
+   "n": "Jaqueline Marinho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 13
+  },
+  {
+   "id": 108,
+   "n": "Jaqueline Oliveira Bezerra",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 4,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 57,
+   "v": [
+    "Jaqueline Bezerra"
+   ]
+  },
+  {
+   "id": 109,
+   "n": "Jeferson Adriano Favaro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 2,
+    "BATISMO": 1
+   },
+   "p": 83,
+   "v": [
+    "Jeferson A Favaro"
+   ]
+  },
+  {
+   "id": 110,
+   "n": "João Batista Sichelli",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 2
+   },
+   "p": 17
+  },
+  {
+   "id": 111,
+   "n": "João Carlos Camargo",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 112,
+   "n": "João Ferreira dos S. Lisboa",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2
+   },
+   "p": 217,
+   "v": [
+    "João Ferreira dos S Lisboa"
+   ]
+  },
+  {
+   "id": 113,
+   "n": "João Marcos Pitanga Izidro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 73,
+   "v": [
+    "João M Pitanga Izidro"
+   ]
+  },
+  {
+   "id": 114,
+   "n": "Jocilene dos Santos Martins",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SE_DOM_1930": 2
+   },
+   "p": 133,
+   "v": [
+    "Jocilene dos S Martins"
+   ]
+  },
+  {
+   "id": 115,
+   "n": "José Carlos M. de Godoy",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0930": 2,
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 2,
+    "SC_CM": 1,
+    "CM_DOM_1800": 2
+   },
+   "p": 234,
+   "v": [
+    "José Carlos M de Godoy"
+   ]
+  },
+  {
+   "id": 116,
+   "n": "José Carlos Naidelice",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 222,
+   "v": [
+    "Jose Carlos Naidelice"
+   ]
+  },
+  {
+   "id": 117,
+   "n": "José Claudemir Pavani",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 139,
+   "v": [
+    "Jose Claudemir Pavani"
+   ]
+  },
+  {
+   "id": 118,
+   "n": "José F. Sobrinho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 169,
+   "v": [
+    "Jose F Sobrinho"
+   ]
+  },
+  {
+   "id": 119,
+   "n": "José Junio M. de Andrade",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 2
+   },
+   "p": 90,
+   "v": [
+    "José Junio M Andrade",
+    "José Junio M de Andrade"
+   ]
+  },
+  {
+   "id": 120,
+   "n": "José Marques Filho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 95,
+   "v": [
+    "Jose Marques Filho",
+    "José Marques filho"
+   ]
+  },
+  {
+   "id": 121,
+   "n": "José Rodrigo de Jesus Moraes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 106,
+   "v": [
+    "Jose Rodrigo de Jesus Moraes"
+   ]
+  },
+  {
+   "id": 122,
+   "n": "José Rubens Milani Pestana",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 45,
+   "v": [
+    "Jose Rubens Milani Pestana"
+   ]
+  },
+  {
+   "id": 123,
+   "n": "José Soares dos Santos",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "SE_DOM_1930": 3
+   },
+   "p": 201
+  },
+  {
+   "id": 124,
+   "n": "José Zezito",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 97,
+   "v": [
+    "Jose Zezito"
+   ]
+  },
+  {
+   "id": 125,
+   "n": "Josefa Maria Sério dos Santos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_QUA_1830": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 86
+  },
+  {
+   "id": 126,
+   "n": "Joselito Alves",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 100
+  },
+  {
+   "id": 127,
+   "n": "Joselma dos Santos",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 68
+  },
+  {
+   "id": 128,
+   "n": "Joseni Maria de M. Gonçalves",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 226,
+   "v": [
+    "Joseni M Gonçalves",
+    "Joseni Maria de M Gonçalves"
+   ]
+  },
+  {
+   "id": 129,
+   "n": "Jucemara Perez Pimentel",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "p": 56
+  },
+  {
+   "id": 130,
+   "n": "Judith Marques Lima",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SC_CM": 1
+   },
+   "p": 69,
+   "v": [
+    "Judith marques lima"
+   ]
+  },
+  {
+   "id": 131,
+   "n": "Júlia Maria de S. G. de Freitas",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 1
+   },
+   "p": 202,
+   "v": [
+    "Julia Maria de S G de Freitas"
+   ]
+  },
+  {
+   "id": 132,
+   "n": "Juliana Carla Alves",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 34
+  },
+  {
+   "id": 133,
+   "n": "Juliana Tavares da Silva",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SE_TER_1930": 2
+   },
+   "p": 114,
+   "v": [
+    "Juliana T da Silva",
+    "Juliana tavares da silva"
+   ]
+  },
+  {
+   "id": 134,
+   "n": "Júlio Esteves",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 239,
+   "v": [
+    "Julio Esteves"
+   ]
+  },
+  {
+   "id": 135,
+   "n": "Juscelino Ferreira dos Santos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 1,
+    "SC_NSF_1800": 1
+   },
+   "p": 31,
+   "v": [
+    "Juscelino F dos Santos"
+   ]
+  },
+  {
+   "id": 136,
+   "n": "Karen C. de Oliveira Beraldo",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 179,
+   "v": [
+    "Karen C de Oliveira Beraldo"
+   ]
+  },
+  {
+   "id": 137,
+   "n": "Katiana Silva Flor Alves",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 98
+  },
+  {
+   "id": 138,
+   "n": "Laércio Belila",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 47,
+   "v": [
+    "Laercio Belila"
+   ]
+  },
+  {
+   "id": 139,
+   "n": "Leonice Loredo Pavani",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 117
+  },
+  {
+   "id": 140,
+   "n": "Lindaura R. Casarotte",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0730": 2,
+    "NSF_SAB_1930": 2
+   },
+   "v": [
+    "Lindaura Casarotte",
+    "Lindaura R Casarotte"
+   ]
+  },
+  {
+   "id": 141,
+   "n": "Lourdes Alves de Andrade",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2,
+    "SC_CM": 1
+   },
+   "p": 184,
+   "v": [
+    "Lourdes Alves Andrade"
+   ]
+  },
+  {
+   "id": 142,
+   "n": "Lourdes Gomes de O. França",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 168,
+   "v": [
+    "Lourdes Gomes De O França",
+    "Lourdes Gomes de O França"
+   ]
+  },
+  {
+   "id": 143,
+   "n": "Lúcia de Assunção Dias de Oliveira",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_QUA_1830": 3,
+    "SC_NSF_1800": 1
+   },
+   "p": 23,
+   "v": [
+    "Lucia Assunção D Oliveira",
+    "Lucia de A dias de Oliveira",
+    "Lucia de Assunção dias de Oliveira"
+   ]
+  },
+  {
+   "id": 144,
+   "n": "Lúcia Helena Bressani Oliveira",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 4,
+    "SE_DOM_1930": 2,
+    "SC_SE_1930": 1
+   },
+   "p": 227,
+   "v": [
+    "Lucia Helena B Oliveira",
+    "Lúcia Helena B Oliveira",
+    "Lúcia Helena Bressani oliveira"
+   ]
+  },
+  {
+   "id": 145,
+   "n": "Lúcia Levinski Lima",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 3
+   },
+   "p": 215,
+   "v": [
+    "Lucia Levinski Lima"
+   ]
+  },
+  {
+   "id": 146,
+   "n": "Luciana Ap. Lopes de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 224,
+   "v": [
+    "Luciana Ap Lopes de Oliveira"
+   ]
+  },
+  {
+   "id": 147,
+   "n": "Luciane R. dos S. Benassute",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "SE_DOM_1930": 2
+   },
+   "p": 78,
+   "v": [
+    "Luciane R dos S Benassute"
+   ]
+  },
+  {
+   "id": 148,
+   "n": "Luiz Antônio de Oliveira",
+   "l": 1,
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3
+   },
+   "p": 163
+  },
+  {
+   "id": 149,
+   "n": "Luiz C. Turci",
+   "a": "Carlão",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 2
+   },
+   "p": 87,
+   "v": [
+    "Luiz C Turci"
+   ]
+  },
+  {
+   "id": 150,
+   "n": "Luiz Carlos Nogueira",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 39,
+   "v": [
+    "Luiz carlos Nogueira"
+   ]
+  },
+  {
+   "id": 151,
+   "n": "Lurdes Fagundes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 188,
+   "v": [
+    "Lurdes Santos"
+   ]
+  },
+  {
+   "id": 152,
+   "n": "Luzia de Fátima Soligo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "BATISMO": 1
+   },
+   "p": 44
+  },
+  {
+   "id": 153,
+   "n": "Madalena F. Braga",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {},
+   "v": [
+    "Madalena F Braga"
+   ]
+  },
+  {
+   "id": 154,
+   "n": "Manoelina de M. Crepaldi",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 208,
+   "v": [
+    "Manoelina de M Crepaldi"
+   ]
+  },
+  {
+   "id": 155,
+   "n": "Mara Lúcia B. Dorado",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2
+   },
+   "p": 72,
+   "v": [
+    "Mara Lúcia B Dorado"
+   ]
+  },
+  {
+   "id": 156,
+   "n": "Márcia Ap. Alves B. de Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "v": [
+    "Marcia Ap Alves B de Souza",
+    "Marcia Ap. Alves B de Souza"
+   ]
+  },
+  {
+   "id": 157,
+   "n": "Marciel Antônio Fornazim",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2
+   },
+   "p": 216,
+   "v": [
+    "Marciel Antonio Fornazim"
+   ]
+  },
+  {
+   "id": 158,
+   "n": "Márcio Aparecido da Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 207,
+   "v": [
+    "Marcio aparecido da silva"
+   ]
+  },
+  {
+   "id": 159,
+   "n": "Márcio Aparecido Delcaro",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 177,
+   "v": [
+    "Marcio Aparecido Delcaro"
+   ]
+  },
+  {
+   "id": 160,
+   "n": "Márcio Boracini Machado",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 233,
+   "v": [
+    "Marcio Boracini Machado"
+   ]
+  },
+  {
+   "id": 161,
+   "n": "Márcio Vandré Pigato",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 16,
+   "v": [
+    "Marcio Vandré Pigato"
+   ]
+  },
+  {
+   "id": 162,
+   "n": "Margareth Garcia Jacomassi",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 4
+   },
+   "p": 15
+  },
+  {
+   "id": 163,
+   "n": "Maria Ap. Bando de Oliveira",
+   "l": 1,
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3
+   },
+   "p": 148,
+   "v": [
+    "Maria Ap Bando de Oliveira"
+   ]
+  },
+  {
+   "id": 164,
+   "n": "Maria Aparecida da Silva",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3
+   },
+   "p": 91
+  },
+  {
+   "id": 165,
+   "n": "Maria Aparecida de Sá Coelho",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 178,
+   "v": [
+    "Maria Ap de Sá Coelho"
+   ]
+  },
+  {
+   "id": 166,
+   "n": "Maria da Conceição V. Mello",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 88,
+   "v": [
+    "Maria Conceição V Mello",
+    "Maria da Conceição V Mello"
+   ]
+  },
+  {
+   "id": 167,
+   "n": "Maria José dos S. Lourenço",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 61,
+   "v": [
+    "Maria José dos S Lourenço"
+   ]
+  },
+  {
+   "id": 168,
+   "n": "Maria L. Damasceno Rodrigues",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 142,
+   "v": [
+    "Maria Damasceno Rodrigues",
+    "Maria L Damasceno Rodrigues",
+    "Maria Lúcia D Rodrigues"
+   ]
+  },
+  {
+   "id": 169,
+   "n": "Maria Lúcia Francisco",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 118,
+   "v": [
+    "Maria Lucia Francisco"
+   ]
+  },
+  {
+   "id": 170,
+   "n": "Maria Luiza Pizzo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 40
+  },
+  {
+   "id": 171,
+   "n": "Maria Nilce Martins S. Ramos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 3
+   },
+   "p": 75,
+   "v": [
+    "Maria Nilce M S Ramos",
+    "Maria Nilce Martins S Ramos"
+   ]
+  },
+  {
+   "id": 172,
+   "n": "Maria Raimunda S. da Cruz",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 194,
+   "v": [
+    "Maria Raimunda S da Cruz"
+   ]
+  },
+  {
+   "id": 173,
+   "n": "Maria Rita Pereira da Cunha",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 223,
+   "v": [
+    "Maria Rita P da Cunha"
+   ]
+  },
+  {
+   "id": 174,
+   "n": "Maria Silvana Z. B. Apolinário",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "INCLUSIVA": 1
+   },
+   "p": 6,
+   "v": [
+    "Maria Silvana Z B Apolinario"
+   ]
+  },
+  {
+   "id": 175,
+   "n": "Maria Socorro M.",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 176,
+   "n": "Maria Zilda dos Santos Cruz",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_DOM_1930": 2,
+    "SE_TER_1930": 2
+   },
+   "p": 65,
+   "v": [
+    "Maria Zilda Dos Santos Cruz"
+   ]
+  },
+  {
+   "id": 177,
+   "n": "Mariele Paulino F. Delcaro",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 159,
+   "v": [
+    "Mariele Paulino F Delcaro"
+   ]
+  },
+  {
+   "id": 178,
+   "n": "Marlei Mingareli da R. Dias",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 165,
+   "v": [
+    "Marlei M da Rocha Dias",
+    "Marlei Mingareli R Dias",
+    "Marlei Mingareli da R Dias"
+   ]
+  },
+  {
+   "id": 179,
+   "n": "Marta Barbosa dos S. Piamonte",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SC_CM": 1
+   },
+   "p": 136,
+   "v": [
+    "Marta B dos S Piamonte",
+    "Marta Barbosa dos S Piamonte"
+   ]
+  },
+  {
+   "id": 180,
+   "n": "Matheus Eduardo do N. Macedo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 14,
+   "v": [
+    "Matheus Eduardo do N Macedo"
+   ]
+  },
+  {
+   "id": 181,
+   "n": "Matheus Guardia",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 204
+  },
+  {
+   "id": 182,
+   "n": "Maurílio Donizete da Silva",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 2
+   }
+  },
+  {
+   "id": 183,
+   "n": "Meire Gimenes",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 210
+  },
+  {
+   "id": 184,
+   "n": "Michele dos S. Piemonte",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 141,
+   "v": [
+    "Michele dos S Piemonte",
+    "Michele dos S Piemonte C"
+   ]
+  },
+  {
+   "id": 185,
+   "n": "Michele Karina B. Minelli",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "BATISMO": 1
+   },
+   "p": 251,
+   "v": [
+    "Michele K B Minelli",
+    "Michele Karina B Minelli"
+   ]
+  },
+  {
+   "id": 186,
+   "n": "Micheli Taver",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 42
+  },
+  {
+   "id": 187,
+   "n": "Michelle da Silva B. de Matos",
+   "l": 1,
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 70,
+   "v": [
+    "Michelle da Silva B de Matos"
+   ]
+  },
+  {
+   "id": 188,
+   "n": "Miriam Ap. Taver de Jesus",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 151,
+   "v": [
+    "Miriam Ap Taver de Jesus"
+   ]
+  },
+  {
+   "id": 189,
+   "n": "Moacir Guerreiro de Campos",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 67,
+   "v": [
+    "Moacir Guereiro de Campos",
+    "Moacir guerreiro de campos"
+   ]
+  },
+  {
+   "id": 190,
+   "n": "Nadiene Maria dos Santos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_QUA_1830": 3
+   },
+   "p": 193,
+   "v": [
+    "Nadiene M dos Santos",
+    "Nadiene maria dos santos"
+   ]
+  },
+  {
+   "id": 191,
+   "n": "Natália Jaque. P. de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 55,
+   "v": [
+    "Natalia Jaque. Oliveira",
+    "Natalia Jaque. P de Oliveira"
+   ]
+  },
+  {
+   "id": 192,
+   "n": "Neli Ribeiro de Souza Cunha",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 27,
+   "v": [
+    "Neli R de Souza Cunha"
+   ]
+  },
+  {
+   "id": 193,
+   "n": "Nilson R. dos Santos",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "NSF_QUA_1830": 3
+   },
+   "p": 190,
+   "v": [
+    "Nilson R dos Santos"
+   ]
+  },
+  {
+   "id": 194,
+   "n": "Nivaldo Bispo Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 172
+  },
+  {
+   "id": 195,
+   "n": "Nivaldo Ribeiro",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 64
+  },
+  {
+   "id": 196,
+   "n": "Odete Moreira Bernardi",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 250,
+   "v": [
+    "Odete Moreira bernardi"
+   ]
+  },
+  {
+   "id": 197,
+   "n": "Onildes Revesse Conceição",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 206
+  },
+  {
+   "id": 198,
+   "n": "Oriovaldo Francisco Martins",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 3,
+    "SC_SE_1930": 1
+   },
+   "p": 41
+  },
+  {
+   "id": 199,
+   "n": "Osvaldo José Macedo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 59,
+   "v": [
+    "Osvado Jose Macedo",
+    "Osvaldo Jose Macedo"
+   ]
+  },
+  {
+   "id": 200,
+   "n": "Oswaldo Godoy",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 201,
+   "n": "Otília Alves dos Santos",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "SE_DOM_1930": 4
+   },
+   "p": 123,
+   "v": [
+    "Otilia Alves dos Santos"
+   ]
+  },
+  {
+   "id": 202,
+   "n": "Patrícia Danielle de S. Franchi",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "INCLUSIVA": 3
+   },
+   "p": 131,
+   "v": [
+    "Patricia Danielle S Franchi",
+    "Patricia Danielle de S Franchi"
+   ]
+  },
+  {
+   "id": 203,
+   "n": "Paula Cosma de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 211,
+   "v": [
+    "Paula Cosma Oliveira"
+   ]
+  },
+  {
+   "id": 204,
+   "n": "Paula Maria Pereira Guardia",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 181
+  },
+  {
+   "id": 205,
+   "n": "Paulo César Monaro",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "SE_DOM_1930": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 99,
+   "v": [
+    "Paulo Cesar Monaro"
+   ]
+  },
+  {
+   "id": 206,
+   "n": "Priscila Santos Macedo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 197
+  },
+  {
+   "id": 207,
+   "n": "Rayssa Souza de Brito da Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 158,
+   "v": [
+    "Rayssa S de Brito da silva",
+    "Rayssa Souza de Brito da silva"
+   ]
+  },
+  {
+   "id": 208,
+   "n": "Regina Levinski Keller",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 154,
+   "v": [
+    "Regina Levinski keller"
+   ]
+  },
+  {
+   "id": 209,
+   "n": "Regina Maria da Silva Melo",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 1
+   },
+   "p": 230,
+   "v": [
+    "Regina Maria S Melo"
+   ]
+  },
+  {
+   "id": 210,
+   "n": "Renata Pereira Caetano",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 183
+  },
+  {
+   "id": 211,
+   "n": "Renato Tomás de Aquino",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 203,
+   "v": [
+    "Renato Tomas Aquine",
+    "Renato Tomas de Aquine"
+   ]
+  },
+  {
+   "id": 212,
+   "n": "Ricardo Henrique Ducca",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 9
+  },
+  {
+   "id": 213,
+   "n": "Robson Ap. Bagatelo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 244,
+   "v": [
+    "Robson Ap Bagatelo"
+   ]
+  },
+  {
+   "id": 214,
+   "n": "Rodolfo Rogério Rodrigues",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 219
+  },
+  {
+   "id": 215,
+   "n": "Rogério de Lima",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 3
+   },
+   "p": 145,
+   "v": [
+    "Rogerio de Lima"
+   ]
+  },
+  {
+   "id": 216,
+   "n": "Rony Gonçalves Tavares",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3
+   },
+   "p": 157
+  },
+  {
+   "id": 217,
+   "n": "Rosa dos Santos Alves Lisboa",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2
+   },
+   "p": 112
+  },
+  {
+   "id": 218,
+   "n": "Rosana M. Z. de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 245,
+   "v": [
+    "Rosana M Z de Oliveira"
+   ]
+  },
+  {
+   "id": 219,
+   "n": "Rosana Mombelli Rodrigues",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 214
+  },
+  {
+   "id": 220,
+   "n": "Rosângela M. da S. de Castro",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 36,
+   "v": [
+    "Rosângela M da S de Castro"
+   ]
+  },
+  {
+   "id": 221,
+   "n": "Rosângela Maria O. Pereira Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 89,
+   "v": [
+    "Rosângela Maria O P Souza",
+    "Rosângela Maria O Pereira Souza"
+   ]
+  },
+  {
+   "id": 222,
+   "n": "Rose Camargo Naidelice",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 116,
+   "v": [
+    "Rose C Naidelice"
+   ]
+  },
+  {
+   "id": 223,
+   "n": "Roseli Cristina J. Nascimento",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SC_CM": 1
+   },
+   "p": 173,
+   "v": [
+    "Roseli Cristina J Nascimento",
+    "Roseli Cristina J do Nascimento"
+   ]
+  },
+  {
+   "id": 224,
+   "n": "Roseli Dias Agostinho",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 3,
+    "INCLUSIVA": 2
+   },
+   "p": 146
+  },
+  {
+   "id": 225,
+   "n": "Rosimeire Ap. Trevisan",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 93,
+   "v": [
+    "Rosimeire Ap Trevisan"
+   ]
+  },
+  {
+   "id": 226,
+   "n": "Sandra Ap. Belizário de Souza",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 128,
+   "v": [
+    "Sandra AP Belizário",
+    "Sandra AP Belizário Souza",
+    "Sandra AP Belizário de Souza"
+   ]
+  },
+  {
+   "id": 227,
+   "n": "Sandra Ap. da Silva Barbosa",
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 3,
+    "SE_DOM_1930": 3
+   },
+   "p": 144,
+   "v": [
+    "Sandra Ap da Silva Barbosa"
+   ]
+  },
+  {
+   "id": 228,
+   "n": "Sandra R. C. Gualiume",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "BATISMO": 1
+   },
+   "p": 248,
+   "v": [
+    "Sandra R C Gualiume"
+   ]
+  },
+  {
+   "id": 229,
+   "n": "Silvia Regina de O. Franzini",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 3,
+   "v": [
+    "Silvia Regina O. Franzini",
+    "Silvia Regina de O Franzini"
+   ]
+  },
+  {
+   "id": 230,
+   "n": "Sirlane Ap. Ferreira Moreno",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 1
+   },
+   "p": 209,
+   "v": [
+    "Sirlane Ap F Moreno",
+    "Sirlane Ap Ferreira Moreno"
+   ]
+  },
+  {
+   "id": 231,
+   "n": "Sirlei Ap. Domingues Godoy",
+   "x": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {}
+  },
+  {
+   "id": 232,
+   "n": "Solaine F. Roque dos Santos",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4
+   },
+   "p": 21,
+   "v": [
+    "Solaine F Roque dos Santos"
+   ]
+  },
+  {
+   "id": 233,
+   "n": "Solange Ap. de Celis Machado",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 160,
+   "v": [
+    "Solange Ap de Celis Machado"
+   ]
+  },
+  {
+   "id": 234,
+   "n": "Sônia Maria R. de Godoy",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_0930": 2,
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 2,
+    "INCLUSIVA": 2,
+    "SC_CM": 1,
+    "CM_DOM_1800": 2
+   },
+   "p": 115,
+   "v": [
+    "Sônia Maria R de Godoy"
+   ]
+  },
+  {
+   "id": 235,
+   "n": "Sônia Regina Vera Honório",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 3,
+    "SC_CM": 1
+   },
+   "p": 30,
+   "v": [
+    "Sônia Regina V Honório"
+   ]
+  },
+  {
+   "id": 236,
+   "n": "Sueli Ap. Castro Torres da Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 28,
+   "v": [
+    "Sueli Ap C Torres da Silva",
+    "Sueli Ap Castro T Silva",
+    "Sueli Ap Castro Torres da Silva"
+   ]
+  },
+  {
+   "id": 237,
+   "n": "Sueli M. Cezário Guimarães",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 241,
+   "v": [
+    "Sueli M Cezário Guimarães"
+   ]
+  },
+  {
+   "id": 238,
+   "n": "Talita B. de Souza Cardeliquio",
+   "locs": [
+    "CM",
+    "SE"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "SE_DOM_1930": 2
+   },
+   "p": 81,
+   "v": [
+    "Talita B de Souza Cardeliquio"
+   ]
+  },
+  {
+   "id": 239,
+   "n": "Terezinha J. da Silva Esteves",
+   "l": 1,
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 134,
+   "v": [
+    "Terezinha J Silva Esteves",
+    "Terezinha J da Silva esteves"
+   ]
+  },
+  {
+   "id": 240,
+   "n": "Thiago Leandro de Lima",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 8
+  },
+  {
+   "id": 241,
+   "n": "Valdeci Araújo Guimarães",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "p": 237,
+   "v": [
+    "Valdeci Araujo Guimarães"
+   ]
+  },
+  {
+   "id": 242,
+   "n": "Valdelice L. G. Marques",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4,
+    "INCLUSIVA": 2
+   },
+   "p": 38,
+   "v": [
+    "Valdelice L G Marques",
+    "Valdelice de L G Marques"
+   ]
+  },
+  {
+   "id": 243,
+   "n": "Valderena Adalgisa Nascimento",
+   "c": 1,
+   "locs": [
+    "NSF"
+   ],
+   "pref": {
+    "NSF_SAB_1930": 4
+   },
+   "v": [
+    "V. Adalgisa do nascimento"
+   ]
+  },
+  {
+   "id": 244,
+   "n": "Valdineia C. Bagatelo",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_1800": 4
+   },
+   "p": 213,
+   "v": [
+    "Valdineia C Bagatelo"
+   ]
+  },
+  {
+   "id": 245,
+   "n": "Valdire de Oliveira",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_SAB_1800": 4
+   },
+   "p": 218
+  },
+  {
+   "id": 246,
+   "n": "Valéria Verati Levinski",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 4,
+    "NSF_SAB_1930": 2,
+    "INCLUSIVA": 2
+   },
+   "p": 48,
+   "v": [
+    "Valeria Verati Levinski"
+   ]
+  },
+  {
+   "id": 247,
+   "n": "Vanda Márcia S. Barbosa",
+   "c": 1,
+   "locs": [
+    "SE"
+   ],
+   "pref": {
+    "SE_TER_1930": 2,
+    "SE_DOM_1930": 3
+   },
+   "v": [
+    "Vanda Márcia S Barbosa",
+    "Vanda Márcia dos S Barbosa"
+   ]
+  },
+  {
+   "id": 248,
+   "n": "Vanderlei Ap. Gualiume",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "BATISMO": 1
+   },
+   "p": 228,
+   "v": [
+    "Vanderlei Ap Gualiume"
+   ]
+  },
+  {
+   "id": 249,
+   "n": "Vanderli L. Inocêncio Peixoto",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4
+   },
+   "v": [
+    "Vanderli L I Peixoto",
+    "Vanderli L Inocêncio Peixoto"
+   ]
+  },
+  {
+   "id": 250,
+   "n": "Vera Lúcia R. dos Santos Silva",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 4,
+    "SC_CM": 1
+   },
+   "p": 196,
+   "v": [
+    "Vera Lúcia R dos S Silva",
+    "Vera Lúcia R dos Santos Silva"
+   ]
+  },
+  {
+   "id": 251,
+   "n": "Wagner Ricardo S. Minelli",
+   "locs": [
+    "CM"
+   ],
+   "pref": {
+    "CM_DOM_0730": 3,
+    "BATISMO": 1
+   },
+   "p": 185,
+   "v": [
+    "Wagner R S Minelli",
+    "Wagner Ricardo S Minelli"
+   ]
+  },
+  {
+   "id": 252,
+   "n": "Zenilda Ribeiro da Silva",
+   "locs": [
+    "CM",
+    "NSF"
+   ],
+   "pref": {
+    "CM_DOM_0930": 3,
+    "NSF_SAB_1930": 2,
+    "NSF_QUA_1830": 2,
+    "INCLUSIVA": 1
+   },
+   "p": 85,
+   "v": [
+    "Zenilda Ribeiro Silva"
+   ]
+  }
+ ],
+ "escalas": {
+  "2026-11": {
+   "missas": [
+    {
+     "id": "2026-11-01-CM_DOM_0730",
+     "data": "2026-11-01",
+     "hora": "07:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0730",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0730"
+     ],
+     "ps": [
+      64,
+      195,
+      42,
+      186,
+      66,
+      82,
+      40,
+      170,
+      211,
+      203,
+      101,
+      1,
+      180,
+      14,
+      36,
+      220,
+      45,
+      122,
+      249,
+      3,
+      229,
+      79,
+      96,
+      206,
+      197,
+      28,
+      236,
+      109,
+      83
+     ],
+     "cr": [
+      170,
+      40,
+      14,
+      180,
+      220,
+      36
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-01-CM_DOM_0930",
+     "data": "2026-11-01",
+     "hora": "09:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0930",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0930"
+     ],
+     "ps": [
+      187,
+      70,
+      194,
+      172,
+      23,
+      143,
+      204,
+      181,
+      86,
+      125,
+      216,
+      157,
+      106,
+      121,
+      158,
+      207,
+      161,
+      16,
+      232,
+      21,
+      127,
+      68,
+      146,
+      224,
+      142,
+      168,
+      47,
+      138
+     ],
+     "cr": [
+      121,
+      106,
+      224,
+      146,
+      157,
+      216
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-01-CM_DOM_1800",
+     "data": "2026-11-01",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_1800",
+     "min": 26,
+     "max": 30,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_1800"
+     ],
+     "ps": [
+      12,
+      54,
+      81,
+      238,
+      244,
+      213,
+      149,
+      87,
+      225,
+      93,
+      166,
+      88,
+      191,
+      55,
+      137,
+      98,
+      184,
+      141,
+      214,
+      219,
+      128,
+      226,
+      134,
+      239,
+      173,
+      223,
+      105
+     ],
+     "cr": [
+      214,
+      219,
+      238,
+      81,
+      223,
+      173
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-01-SE_DOM_1930",
+     "data": "2026-11-01",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_DOM_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_DOM_1930"
+     ],
+     "ps": [
+      65,
+      176,
+      247,
+      227
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-03-SE_TER_1930",
+     "data": "2026-11-03",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_TER_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_TER_1930"
+     ],
+     "ps": [
+      144,
+      227,
+      80,
+      100
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-04-NSF_QUA_1830",
+     "data": "2026-11-04",
+     "hora": "18:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_QUA_1830",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_QUA_1830"
+     ],
+     "ps": [
+      37,
+      193,
+      190,
+      125
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-06-SC_CM_0900",
+     "data": "2026-11-06",
+     "hora": "09:00",
+     "local": "CM",
+     "nome": "Sagrado Coração de Jesus",
+     "modelo": "SC_CM_0900",
+     "min": 9,
+     "max": 10,
+     "lider": 1,
+     "cred": 0,
+     "pool": [
+      "SC_CM"
+     ],
+     "ps": [
+      177,
+      159,
+      94,
+      130,
+      69,
+      235,
+      30,
+      92,
+      5,
+      46
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-06-SC_CM_1500",
+     "data": "2026-11-06",
+     "hora": "15:00",
+     "local": "CM",
+     "nome": "Sagrado Coração de Jesus",
+     "modelo": "SC_CM_1500",
+     "min": 9,
+     "max": 10,
+     "lider": 1,
+     "cred": 0,
+     "pool": [
+      "SC_CM"
+     ],
+     "ps": [
+      160,
+      233,
+      179,
+      136,
+      60,
+      62,
+      223,
+      173,
+      250,
+      196
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-06-SC_NSF_1800",
+     "data": "2026-11-06",
+     "hora": "18:00",
+     "local": "NSF",
+     "nome": "Sagrado Coração de Jesus",
+     "modelo": "SC_NSF_1800",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SC_NSF_1800",
+      "NSF_QUA_1830",
+      "NSF_SAB_1930"
+     ],
+     "ps": [
+      243,
+      35,
+      135,
+      31
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-06-SC_SE_1930",
+     "data": "2026-11-06",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Sagrado Coração de Jesus",
+     "modelo": "SC_SE_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SC_SE_1930",
+      "SE_TER_1930",
+      "SE_DOM_1930"
+     ],
+     "ps": [
+      41,
+      198,
+      74,
+      108
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-07-CM_SAB_1800",
+     "data": "2026-11-07",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_SAB_1800",
+     "min": 22,
+     "max": 26,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_SAB_1800"
+     ],
+     "ps": [
+      177,
+      159,
+      221,
+      89,
+      97,
+      124,
+      218,
+      245,
+      169,
+      118,
+      27,
+      192,
+      13,
+      107,
+      156,
+      208,
+      154,
+      151,
+      188,
+      113,
+      73,
+      215,
+      145,
+      22,
+      103
+     ],
+     "cr": [
+      188,
+      151,
+      145,
+      215,
+      118,
+      169
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-07-NSF_SAB_1930",
+     "data": "2026-11-07",
+     "hora": "19:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_SAB_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_SAB_1930"
+     ],
+     "ps": [
+      243,
+      35,
+      182,
+      140
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-08-CM_DOM_0730",
+     "data": "2026-11-08",
+     "hora": "07:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0730",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0730"
+     ],
+     "ps": [
+      67,
+      189,
+      61,
+      167,
+      222,
+      116,
+      102,
+      24,
+      71,
+      185,
+      251,
+      174,
+      6,
+      10,
+      33,
+      152,
+      44,
+      95,
+      120,
+      178,
+      165,
+      42,
+      186,
+      66,
+      82,
+      40,
+      170,
+      84,
+      104
+     ],
+     "cr": [
+      24,
+      102,
+      71,
+      116,
+      222,
+      165
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-08-BATISMO",
+     "data": "2026-11-08",
+     "hora": "08:00",
+     "local": "SP",
+     "nome": "Missa de Batismo",
+     "modelo": "BATISMO",
+     "min": 6,
+     "max": 6,
+     "lider": 1,
+     "cred": 0,
+     "pool": [
+      "BATISMO",
+      "CM_DOM_0730",
+      "CM_DOM_0930"
+     ],
+     "ps": [
+      64,
+      195,
+      77,
+      19,
+      237,
+      241
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-08-CM_DOM_0930",
+     "data": "2026-11-08",
+     "hora": "09:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0930",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0930"
+     ],
+     "ps": [
+      163,
+      148,
+      194,
+      172,
+      23,
+      143,
+      204,
+      181,
+      86,
+      125,
+      132,
+      34,
+      216,
+      157,
+      106,
+      121,
+      158,
+      207,
+      161,
+      16,
+      232,
+      21,
+      217,
+      112,
+      127,
+      68,
+      234,
+      115
+     ],
+     "cr": [
+      68,
+      127,
+      143,
+      23,
+      34,
+      132
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-08-CM_DOM_1800",
+     "data": "2026-11-08",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_1800",
+     "min": 26,
+     "max": 30,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_1800"
+     ],
+     "ps": [
+      12,
+      54,
+      81,
+      238,
+      244,
+      213,
+      149,
+      87,
+      225,
+      93,
+      166,
+      88,
+      191,
+      55,
+      137,
+      98,
+      184,
+      141,
+      210,
+      183,
+      214,
+      219,
+      26,
+      43,
+      150,
+      39
+     ],
+     "cr": [
+      43,
+      26,
+      183,
+      210,
+      141,
+      184
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-08-SE_DOM_1930",
+     "data": "2026-11-08",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_DOM_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_DOM_1930"
+     ],
+     "ps": [
+      205,
+      99,
+      15,
+      162
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-10-SE_TER_1930",
+     "data": "2026-11-10",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_TER_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_TER_1930"
+     ],
+     "ps": [
+      57,
+      108,
+      17,
+      110
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-11-NSF_QUA_1830",
+     "data": "2026-11-11",
+     "hora": "18:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_QUA_1830",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_QUA_1830"
+     ],
+     "ps": [
+      37,
+      209,
+      138,
+      47
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-14-INCLUSIVA",
+     "data": "2026-11-14",
+     "hora": "16:00",
+     "local": "CM",
+     "nome": "Missa Inclusiva",
+     "modelo": "INCLUSIVA",
+     "min": 12,
+     "max": 16,
+     "lider": 1,
+     "cred": 0,
+     "pool": [
+      "INCLUSIVA"
+     ],
+     "ps": [
+      239,
+      134,
+      199,
+      59,
+      202,
+      131,
+      242,
+      38,
+      171,
+      75,
+      8,
+      240,
+      57,
+      108,
+      99,
+      205
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-14-CM_SAB_1800",
+     "data": "2026-11-14",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_SAB_1800",
+     "min": 22,
+     "max": 26,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_SAB_1800"
+     ],
+     "ps": [
+      160,
+      233,
+      221,
+      89,
+      97,
+      124,
+      218,
+      245,
+      169,
+      118,
+      27,
+      192,
+      13,
+      107,
+      156,
+      9,
+      212,
+      58,
+      51,
+      62,
+      60,
+      208,
+      154,
+      139,
+      117
+     ],
+     "cr": [
+      107,
+      13,
+      89,
+      221,
+      154,
+      208
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-14-NSF_SAB_1930",
+     "data": "2026-11-14",
+     "hora": "19:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_SAB_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_SAB_1930"
+     ],
+     "ps": [
+      164,
+      91,
+      50,
+      70
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-15-CM_DOM_0730",
+     "data": "2026-11-15",
+     "hora": "07:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0730",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0730"
+     ],
+     "ps": [
+      64,
+      195,
+      77,
+      19,
+      237,
+      241,
+      211,
+      203,
+      46,
+      5,
+      101,
+      1,
+      180,
+      14,
+      36,
+      220,
+      45,
+      122,
+      249,
+      3,
+      229,
+      196,
+      250,
+      79,
+      96,
+      206,
+      197,
+      114,
+      133
+     ],
+     "cr": [
+      19,
+      77,
+      250,
+      196,
+      197,
+      206
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-15-CM_DOM_0930",
+     "data": "2026-11-15",
+     "hora": "09:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0930",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0930"
+     ],
+     "ps": [
+      187,
+      70,
+      56,
+      129,
+      146,
+      224,
+      155,
+      72,
+      228,
+      248,
+      246,
+      48,
+      92,
+      230,
+      209,
+      194,
+      172,
+      23,
+      143,
+      142,
+      168,
+      204,
+      181,
+      86,
+      125,
+      132,
+      34
+     ],
+     "cr": [
+      72,
+      155,
+      248,
+      228,
+      209,
+      230
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-15-CM_DOM_1800",
+     "data": "2026-11-15",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_1800",
+     "min": 26,
+     "max": 30,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_1800"
+     ],
+     "ps": [
+      12,
+      54,
+      179,
+      136,
+      235,
+      30,
+      81,
+      238,
+      244,
+      213,
+      149,
+      87,
+      225,
+      93,
+      166,
+      88,
+      128,
+      226,
+      191,
+      55,
+      173,
+      223,
+      137,
+      98,
+      184,
+      141
+     ],
+     "cr": [
+      30,
+      235,
+      88,
+      166,
+      55,
+      191
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-15-SE_DOM_1930",
+     "data": "2026-11-15",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_DOM_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_DOM_1930"
+     ],
+     "ps": [
+      201,
+      123,
+      65,
+      176
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-17-SE_TER_1930",
+     "data": "2026-11-17",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_TER_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_TER_1930"
+     ],
+     "ps": [
+      119,
+      90,
+      126,
+      100
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-18-NSF_QUA_1830",
+     "data": "2026-11-18",
+     "hora": "18:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_QUA_1830",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_QUA_1830"
+     ],
+     "ps": [
+      85,
+      252,
+      143,
+      48
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-21-CM_SAB_1800",
+     "data": "2026-11-21",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_SAB_1800",
+     "min": 22,
+     "max": 26,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_SAB_1800"
+     ],
+     "ps": [
+      177,
+      159,
+      38,
+      242,
+      59,
+      199,
+      151,
+      188,
+      113,
+      73,
+      215,
+      145,
+      103,
+      22,
+      8,
+      240,
+      221,
+      89,
+      97,
+      124,
+      218,
+      245,
+      76
+     ],
+     "cr": [
+      22,
+      103,
+      73,
+      113,
+      124,
+      97
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-21-NSF_SAB_1930",
+     "data": "2026-11-21",
+     "hora": "19:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_SAB_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_SAB_1930"
+     ],
+     "ps": [
+      163,
+      148,
+      243,
+      35
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-22-CM_DOM_0730",
+     "data": "2026-11-22",
+     "hora": "07:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0730",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0730"
+     ],
+     "ps": [
+      67,
+      189,
+      28,
+      236,
+      61,
+      167,
+      222,
+      116,
+      102,
+      24,
+      71,
+      83,
+      109,
+      130,
+      69,
+      104,
+      84,
+      185,
+      251,
+      174,
+      6,
+      10,
+      33,
+      152,
+      44,
+      95,
+      120
+     ],
+     "cr": [
+      33,
+      10,
+      167,
+      61,
+      6,
+      174
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-22-CM_DOM_0930",
+     "data": "2026-11-22",
+     "hora": "09:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0930",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0930"
+     ],
+     "ps": [
+      187,
+      70,
+      216,
+      157,
+      106,
+      121,
+      158,
+      207,
+      2,
+      7,
+      161,
+      16,
+      232,
+      21,
+      217,
+      112,
+      127,
+      68,
+      56,
+      129,
+      146,
+      224,
+      155,
+      72,
+      164,
+      91
+     ],
+     "cr": [
+      129,
+      56,
+      232,
+      21,
+      16,
+      161
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-22-CM_DOM_1800",
+     "data": "2026-11-22",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_1800",
+     "min": 26,
+     "max": 30,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_1800"
+     ],
+     "ps": [
+      134,
+      239,
+      210,
+      183,
+      214,
+      219,
+      26,
+      43,
+      193,
+      190,
+      115,
+      234,
+      150,
+      39,
+      179,
+      136,
+      17,
+      110,
+      119,
+      90,
+      235,
+      30,
+      15,
+      162,
+      81,
+      238
+     ],
+     "cr": [
+      110,
+      17,
+      90,
+      119,
+      179,
+      136
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-22-SE_DOM_1930",
+     "data": "2026-11-22",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_DOM_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_DOM_1930"
+     ],
+     "ps": [
+      53,
+      52,
+      147,
+      78
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-24-SE_TER_1930",
+     "data": "2026-11-24",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_TER_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_TER_1930"
+     ],
+     "ps": [
+      144,
+      227,
+      80,
+      133
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-25-NSF_QUA_1830",
+     "data": "2026-11-25",
+     "hora": "18:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_QUA_1830",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_QUA_1830"
+     ],
+     "ps": [
+      105,
+      117,
+      139,
+      98
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-28-CM_SAB_1800",
+     "data": "2026-11-28",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_SAB_1800",
+     "min": 22,
+     "max": 26,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_SAB_1800"
+     ],
+     "ps": [
+      160,
+      233,
+      169,
+      118,
+      38,
+      242,
+      27,
+      192,
+      147,
+      78,
+      13,
+      107,
+      59,
+      199,
+      156,
+      9,
+      212,
+      58,
+      51,
+      62,
+      60,
+      208,
+      154
+     ],
+     "cr": [
+      192,
+      27,
+      51,
+      58,
+      212,
+      9
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-28-NSF_SAB_1930",
+     "data": "2026-11-28",
+     "hora": "19:30",
+     "local": "NSF",
+     "nome": "Missa",
+     "modelo": "NSF_SAB_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "NSF_SAB_1930"
+     ],
+     "ps": [
+      131,
+      2,
+      7,
+      157
+     ],
+     "cr": [],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-29-CM_DOM_0730",
+     "data": "2026-11-29",
+     "hora": "07:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0730",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0730"
+     ],
+     "ps": [
+      64,
+      195,
+      178,
+      165,
+      77,
+      19,
+      237,
+      241,
+      42,
+      186,
+      66,
+      82,
+      40,
+      170,
+      211,
+      203,
+      46,
+      5,
+      101,
+      1,
+      180,
+      14,
+      36,
+      220,
+      45,
+      122,
+      140
+     ],
+     "cr": [
+      203,
+      211,
+      186,
+      42,
+      140,
+      82
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-29-CM_DOM_0930",
+     "data": "2026-11-29",
+     "hora": "09:30",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_0930",
+     "min": 26,
+     "max": 34,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_0930"
+     ],
+     "ps": [
+      163,
+      148,
+      50,
+      228,
+      248,
+      202,
+      131,
+      123,
+      201,
+      246,
+      48,
+      92,
+      171,
+      75,
+      230,
+      209,
+      252,
+      85,
+      194,
+      172,
+      23,
+      142,
+      168,
+      204,
+      181,
+      86
+     ],
+     "cr": [
+      123,
+      201,
+      168,
+      142,
+      246,
+      48
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-29-CM_DOM_1800",
+     "data": "2026-11-29",
+     "hora": "18:00",
+     "local": "CM",
+     "nome": "Missa",
+     "modelo": "CM_DOM_1800",
+     "min": 26,
+     "max": 30,
+     "lider": 1,
+     "cred": 6,
+     "pool": [
+      "CM_DOM_1800"
+     ],
+     "ps": [
+      12,
+      54,
+      53,
+      52,
+      244,
+      213,
+      149,
+      87,
+      225,
+      93,
+      166,
+      88,
+      128,
+      226,
+      134,
+      239,
+      191,
+      55,
+      173,
+      223,
+      137,
+      184,
+      141,
+      210,
+      183,
+      31,
+      135
+     ],
+     "cr": [
+      87,
+      149,
+      52,
+      53,
+      128,
+      226
+     ],
+     "obs": ""
+    },
+    {
+     "id": "2026-11-29-SE_DOM_1930",
+     "data": "2026-11-29",
+     "hora": "19:30",
+     "local": "SE",
+     "nome": "Missa",
+     "modelo": "SE_DOM_1930",
+     "min": 4,
+     "max": 4,
+     "lider": 0,
+     "cred": 0,
+     "pool": [
+      "SE_DOM_1930"
+     ],
+     "ps": [
+      114,
+      133,
+      247,
+      76
+     ],
+     "cr": [],
+     "obs": ""
+    }
+   ],
+   "geradaEm": "2026-10-27T00:21:29.960Z",
+   "semente": 20261101
+  }
+ },
+ "atualizadoEm": "2026-10-27T00:40:00.000Z",
+ "versao": 2
+}

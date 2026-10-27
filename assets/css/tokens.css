@@ -1,0 +1,55 @@
+/* Paleta: azul mariano, ouro litúrgico e verde-oliva suave, sobre um fundo de céu claro.
+   Tipografia: Literata (títulos) e Atkinson Hyperlegible (texto), escolhida para leitura fácil por pessoas idosas. */
+:root {
+  --bg: #F1F5F9;
+  --bg-top: #E3ECF6;
+  --surface: #FFFFFF;
+  --sunk: #EAF0F6;
+  --ink: #1B2532;
+  --muted: #586577;
+  --line: #D6DFE9;
+  --marian: #264C78;
+  --marian-2: #3A6699;
+  --marian-ink: #FFFFFF;
+  --marian-soft: #E1EAF5;
+  --gold: #8F6519;
+  --gold-2: #C79A3E;
+  --gold-soft: #F6EDD7;
+  --sage: #557A66;
+  --sage-soft: #E2EEE6;
+  --ok: #2B7047;
+  --ok-soft: #DFF0E5;
+  --warn: #A9471A;
+  --warn-soft: #FBE7DA;
+  --cm: #264C78;
+  --sp: #5B4E92;
+  --se: #A0362B;
+  --nsf: #2E7363;
+  --pattern: rgba(38, 76, 120, .07);
+  --shadow: 0 1px 2px rgba(20, 40, 70, .06), 0 6px 18px rgba(20, 40, 70, .07);
+  --shadow-lg: 0 18px 50px rgba(15, 30, 55, .22);
+  --f-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-display: "Literata", Georgia, "Times New Roman", serif;
+  --r: 14px;
+  --r-sm: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10161D; --bg-top: #16212D; --surface: #18212B; --sunk: #131A22; --ink: #E6ECF2; --muted: #9BA8B6; --line: #29343F;
+    --marian: #8DB3DE; --marian-2: #A9C6E8; --marian-ink: #0D1621; --marian-soft: #1C2B3D;
+    --gold: #E0BA68; --gold-2: #E0BA68; --gold-soft: #2E2715; --sage: #8FBBA2; --sage-soft: #18291F;
+    --ok: #76C696; --ok-soft: #15301F; --warn: #F19C66; --warn-soft: #39231A;
+    --cm: #8DB3DE; --sp: #B1A4E8; --se: #E8877A; --nsf: #7DC8B5; --pattern: rgba(141, 179, 222, .06);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .35); --shadow-lg: 0 18px 50px rgba(0, 0, 0, .5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10161D; --bg-top: #16212D; --surface: #18212B; --sunk: #131A22; --ink: #E6ECF2; --muted: #9BA8B6; --line: #29343F;
+  --marian: #8DB3DE; --marian-2: #A9C6E8; --marian-ink: #0D1621; --marian-soft: #1C2B3D;
+  --gold: #E0BA68; --gold-2: #E0BA68; --gold-soft: #2E2715; --sage: #8FBBA2; --sage-soft: #18291F;
+  --ok: #76C696; --ok-soft: #15301F; --warn: #F19C66; --warn-soft: #39231A;
+  --cm: #8DB3DE; --sp: #B1A4E8; --se: #E8877A; --nsf: #7DC8B5; --pattern: rgba(141, 179, 222, .06);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .35); --shadow-lg: 0 18px 50px rgba(0, 0, 0, .5);
+  color-scheme: dark;
+}
